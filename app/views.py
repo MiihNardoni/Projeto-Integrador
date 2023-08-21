@@ -8,3 +8,6 @@ def sobre(request):
 
 def equipe(request):
     return render(request, "app/equipe.html")
+
+def campanhas(request):
+    return render(request, "app/campanhas.html")  
