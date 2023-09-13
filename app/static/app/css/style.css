@@ -2,3 +2,17 @@ body{
     background-color: rgb(255, 211, 211);
     color: rgb(0, 0, 0);
 }
+
+ul li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(24, 27, 185);
+}
